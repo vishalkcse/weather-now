@@ -200,7 +200,7 @@ export default function App() {
       <header className="main-header">
         <div className="logo-section">
           <img src="/assets/images/mylogo.jpg" alt="Logo" className="logo-image" />
-          <h1 className="logo-text">WEATHER <span className="text-primary-light">NOW</span></h1>
+          <h1 className="logo-text">Weather <span className="text-primary-light">Now</span></h1>
         </div>
 
         {/* Search form — calls handleSearch when submitted */}

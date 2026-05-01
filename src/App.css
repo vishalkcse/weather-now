@@ -46,16 +46,14 @@
 
 .logo-text {
   font-size: 1.5rem;
-  font-weight: 900;
-  letter-spacing: -0.05em;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: normal;
 }
 
 .city-name {
   font-size: 3rem;
-  font-weight: 900;
-  letter-spacing: -0.05em;
-  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 /* Search Box */
