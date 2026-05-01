@@ -6,10 +6,9 @@
   flex-direction: column;
   gap: 32px;
 }
-
 @media (max-width: 768px) {
   .dashboard-container {
-    padding: 16px;
+    padding: 24px;
     gap: 24px;
   }
 }
@@ -581,6 +580,12 @@
   color: white;
   box-shadow: 0 25px 50px -12px rgba(45, 63, 169, 0.3);
   transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .day-btn.active {
+    transform: none;
+  }
 }
 
 .day-name {
