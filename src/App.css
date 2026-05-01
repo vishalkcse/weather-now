@@ -27,12 +27,6 @@
     flex-direction: column;
     gap: 20px;
   }
-  .controls-group {
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    gap: 16px;
-  }
 }
 
 .logo-section {
@@ -103,6 +97,15 @@
   align-items: center;
   gap: 16px;
   justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .controls-group {
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    gap: 16px;
+  }
 }
 
 .flex-gap-2 {
