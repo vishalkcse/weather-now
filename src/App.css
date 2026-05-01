@@ -20,6 +20,12 @@
 @media (max-width: 768px) {
   .main-header {
     flex-direction: column;
+    gap: 20px;
+  }
+  .controls-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
 }
 
@@ -231,7 +237,7 @@
 @media (max-width: 768px) {
   .hero-card {
     flex-direction: column;
-    padding: 32px;
+    padding: 24px;
     text-align: center;
   }
 }
@@ -280,6 +286,12 @@
   letter-spacing: -0.025em;
 }
 
+@media (max-width: 768px) {
+  .city-name {
+    font-size: 2.25rem;
+  }
+}
+
 .weather-main {
   display: flex;
   align-items: center;
@@ -303,10 +315,22 @@
   line-height: 1;
 }
 
+@media (max-width: 768px) {
+  .temp-large {
+    font-size: 5.5rem;
+  }
+}
+
 .weather-desc {
   font-size: 1.5rem;
   font-weight: 900;
   text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .weather-desc {
+    font-size: 1.2rem;
+  }
 }
 
 .rain-chance {
@@ -327,6 +351,14 @@
   min-width: 260px;
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .intel-box {
+    padding: 20px;
+    min-width: 100%;
+    border-radius: 1.5rem;
+  }
 }
 
 .intel-label {
